@@ -1,0 +1,2 @@
+<!--miniprogram/page/question/pages/doc-web-view/doc-web-view.wxml-->
+<web-view src="https://www.yuque.com/yuque/blog/"></web-view>

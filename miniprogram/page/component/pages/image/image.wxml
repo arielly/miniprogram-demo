@@ -6,9 +6,9 @@
 
   <view class="page-body">
     <view class="page-section page-section-gap">
-      <view class="page-section-title">Local Image</view>
+      <view class="page-section-title">Local Image 倚天屠龙记-周芷若</view>
       <view class="page-section-ctn">
-        <image class="image" src="../../resources/pic/1.jpg"/>
+        <image class="image" src="../../resources/pic/hsdss-zzr.jpg"/>
       </view>
     </view>
     <view class="page-section page-section-gap">

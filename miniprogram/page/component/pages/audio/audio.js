@@ -8,10 +8,10 @@ Page({
 
   data: {
     current: {
-      poster: 'http://y.gtimg.cn/music/photo_new/T002R300x300M000003rsKF44GyaSk.jpg?max_age=2592000',
-      name: '此时此刻',
-      author: '许巍',
-      src: 'http://ws.stream.qqmusic.qq.com/M500001VfvsJ21xFqb.mp3?guid=ffffffff82def4af4b12b3cd9337d5e7&uin=346897220&vkey=6292F51E1E384E06DCBDC9AB7C49FD713D632D313AC4858BACB8DDD29067D3C601481D36E62053BF8DFEAF74C0A5CCFADD6471160CAF3E6A&fromtag=46',
+      poster: 'https://y.gtimg.cn/music/photo_new/T002R800x800M000003GeKUb3y6ras.jpg?max_age=2592000',
+      name: '此生惟你 (《倚天屠龙记》电视剧插曲)',
+      author: '周深',
+      src: 'http://dl.stream.qqmusic.qq.com/C400001dUzHj0Txu13.m4a?guid=7166179752&vkey=F77F3177F770043A2AC2DF7791362B62EF5B79A71943BA7DBC8E7E383101B8488F5846CE623089A32465B93C8400EF72AFCC403AA755C256&uin=0&fromtag=66',
     },
     audioAction: {
       method: 'pause'

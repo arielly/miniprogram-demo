@@ -1,0 +1,19 @@
+<!--miniprogram/page/question/pages/poetry-tang/poetry-tang.wxml-->
+<import src="../../../common/head.wxml" />
+<import src="../../../common/foot.wxml" />
+
+<view class="container">
+  <template is="head" data="{{title: '第 ' + question._id + ' 题'}}" />
+
+  <view class="page-body">
+    <view class="page-section page-section-spacing">
+      <view class="text-box" scroll-y="true" scroll-top="{{scrollTop}}">
+        <text>{{question.stem}}</text>
+      </view>
+      <button type="{{question.answer[index].type}}" 
+      disabled="{{question.answer[index].disabled}}" wx:for="{{question.answer}}" wx:key="{{question.answer[index].id}}" data-text="{{question.answer[index].id}}" bindtap="doAnswer">{{question.answer[index].content}}</button>
+    </view>
+
+    <template is="foot" />
+  </view>
+</view>
